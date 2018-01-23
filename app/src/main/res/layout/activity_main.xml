@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fartakstok.cryptocurrency.MainActivity"
+    android:padding="10dp"
+    android:background="#3e3c3c">
+
+ <EditText
+     android:id="@+id/editCryptoName"
+     android:layout_width="160dp"
+     android:layout_height="50dp"
+     android:layout_centerInParent="true"/>
+
+
+    <Button
+        android:id="@+id/btnGetCurrentCrypto"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editCryptoName"
+        android:layout_centerInParent="true"
+        android:onClick="onGetCurrentCrypto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="GET Crypto currency"
+        android:background="#ffc400"
+        android:textColor="#2d2c2c"/>
+
+</RelativeLayout>
